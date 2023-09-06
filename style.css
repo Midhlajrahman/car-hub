@@ -1,0 +1,138 @@
+body{
+    padding: 0;
+    margin: 0;
+    background-color: black !important;
+    overflow-x: hidden;
+    width:100%;
+}
+html{
+    padding: 0;
+    margin: 0;
+    width: 100% !important;
+}
+.nav-link{
+    color: white !important;
+
+}
+.nav-item{
+    display: flex;
+}
+.form-control{
+    width: 900px !important;
+}
+.search-btn{
+   position: relative;
+   bottom: 6px !important;
+
+}
+.upload-txt{
+ position: relative;
+ right: 70px;
+ top: 2px;
+}
+.upgrade-txt{
+    position: relative;
+    right: 112px;
+    top: 2px;
+}
+.navbar-2{
+    height: 40px !important;
+    background-color: rgb(58, 58, 58) !important;
+   
+    border: 1px solid gray;
+}
+.nav-link{
+   margin-left: 140px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   
+}
+@media(max-width:1555px){
+  
+    /* .login{
+        display: none;
+
+    }
+    .signup{
+        display: none;
+    } */
+}
+@media(max-width:991px){
+  
+}
+/* @media(min-width:389px){
+    .navbar{
+        width: auto;
+    }
+} */
+@media(max-width:1546px){
+    .form-control{
+        width: 400px !important;
+    }
+}
+@media(max-width:1054px){
+    .form-control{
+        width: 350px !important;
+    }
+}
+@media(max-width:1775px){
+    .nav-link{
+        margin-left: 90px;
+      
+        
+     }
+}
+@media(max-width:1776px){
+    .nav-link{
+        margin-left: 90px;
+      
+        
+     }
+}
+@media(max-width:1328px){
+    .nav-link{
+        margin-left: 50px;
+      
+        
+     }
+}
+@media(max-width:991px){
+   .navbar-2{
+    background-color: black !important;
+    border: 0px;
+   }
+   .form-control{
+    width: 500px !important;
+}
+ .login{
+        display: none;
+
+    }
+    .signup{
+        display: none;
+    }
+}
+
+.card-text{
+    color: white;
+}
+.card-title{
+    color: rgb(211, 150, 20) !important;
+    font-weight: bolder;
+
+}
+.views{
+    color: white;
+}
+
+.like-count{
+    position: relative;
+    top: 3px !important;
+}
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    background-color: #2196F3;
+    padding: 10px;
+  }
