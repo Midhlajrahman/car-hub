@@ -136,3 +136,18 @@ html{
     background-color: #2196F3;
     padding: 10px;
   }
+  @media(max-width:699px){
+    .form-control{
+        width: 180px !important;
+    }
+  }
+  @media(max-width:595px){
+    .form-control{
+        width: 100px !important;
+    }
+  }
+  @media(max-width:505px){
+    .form-control{
+       display: none !important;
+    }
+  }
